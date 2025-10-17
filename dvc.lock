@@ -1,0 +1,19 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: data/Entities.csv
+      hash: md5
+      md5: 0cf613eedb9c9bbb14e5aaeeafd97419
+      size: 47204213
+    - path: src/train.py
+      hash: md5
+      md5: 8aface72eed2f9f4318d59fddae56c7f
+      size: 1863
+    outs:
+    - path: models/
+      hash: md5
+      md5: 52a576c89bd3b19c39fee03113b2082c.dir
+      size: 389518495
+      nfiles: 4
