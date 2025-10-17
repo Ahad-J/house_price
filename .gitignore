@@ -1,4 +1,4 @@
-venv/
+!venv/
 __pycache__/
 .dvc/
 .cache/
@@ -9,3 +9,4 @@ __pycache__/
 !data/*.dvc
 
 /models
+/metrics.json
