@@ -4,5 +4,9 @@ stages:
     deps:
       - src/train.py
       - data/Entities.csv
+      - params.yaml
     outs:
       - models/
+    metrics:
+      - metrics.json
+
