@@ -267,6 +267,3 @@ The trained model achieves an **R² score of 0.82**, showing strong predictive p
 
 ## 👨‍💻 Author
 🔗 [GitHub: Ahad-J](https://github.com/Ahad-J)
-
-
-Would you like me to add **badges** (like Python version, DVC, Flask, and License) and a **screenshot section** to make it even more polished for GitHub presentation?
